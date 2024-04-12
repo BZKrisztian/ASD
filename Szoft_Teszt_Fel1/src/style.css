@@ -1,0 +1,82 @@
+/* body section */
+body {
+    background-color: wheat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #635440;
+    background-color: #2C2112;
+}
+#intro_page{
+    background-image: url(/Images/intro_page_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#about_page{
+    background-image: url(/Images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#games_page{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* text styling */
+#main_title{
+    font-size:120px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* navigation+list */
+.nav_list4intro{
+    list-style-type: none;
+    
+}
+
+.unord_list, #nav_list4intro{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    background-color: #201710 ;
+    border-radius: 20px;
+    border-width: 200px;
+}
+
+
+/* containers */
+.container {
+    background-color:#fff5d47a;
+    border-radius: 20px;
+    color: #2C2112;
+
+}
+.game_box{
+    text-align:center;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    background-color: rgba(255, 228, 196, 0.377);
+    color: #2C2112;
+    border-radius: 30px;
+    border-width: 300px;
+    
+}
+
+/* image section */
+.image4game{
+    width: 250px;
+    height: 175px;
+}
